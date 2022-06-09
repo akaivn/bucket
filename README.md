@@ -1,2 +1,2 @@
 # bucket
-This repo is using for storage some Files
+This repo is used to store some files
