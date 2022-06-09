@@ -1,0 +1,37 @@
+server:
+  port: 6667
+#  servlet:
+#    context-path: /miui
+spring:
+  profiles:
+    active: dev
+  application:
+    name: miui
+  config:
+    import:
+      - classpath:application-db.yml
+      - classpath:config/miui-config.yml
+      - classpath:config/email/text/template.yml
+      - classpath:config/sms/sms-config.yml
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  mail:
+    username: 2895110093@qq.com
+    # 如果使用qq邮箱发送，就应该有他的校验码，需要发送短信后接受到，如果使用其他邮箱，就直接写密码
+    password: ntwbymcmscyfddbj
+    # 邮箱所在的服务器
+    host: smtp.qq.com
+    default-encoding: utf-8
+gitee:
+  owner: QianKa
+  repository: image-bucket
+  token: 352d29371f5334e27f33571e640db265
+  filename-strategy: uuid
+  message: aaa
+
+github:
+  owner: akaivn
+  token: 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
+  repository: bucket
