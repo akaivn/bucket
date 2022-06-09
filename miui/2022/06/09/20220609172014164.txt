@@ -1,0 +1,9 @@
+${AnsiColor.BLUE}
+        .__      .__
+  _____ |__|__ __|__|
+ /     \|  |  |  \  |
+|  Y Y  \  |  |  /  |
+|__|_|  /__|____/|__|
+      \/
+${AnsiColor.BRIGHT_GREEN}
+Hopefully. This program is bug-free :)
